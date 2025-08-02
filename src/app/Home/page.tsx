@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Download } from "lucide-react";
 
-export const Home1 = () => {
+const Home1 = () => {
     return(
         <div className="">
             <div className="h-[90vh] flex justify-evenly items-center relative z-1 text-white">
@@ -26,5 +26,6 @@ export const Home1 = () => {
       
     );
 };
+
 
 export default Home1;
