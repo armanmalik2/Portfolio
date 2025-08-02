@@ -2,7 +2,7 @@
 
 import { Mail, MessageCircle, MessageSquare, Phone, Send, ToolCase, User } from "lucide-react";
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
+import { supabase } from "../../lib/supabase";
 import Header from "../Header/page";
 
 
@@ -63,5 +63,6 @@ const ContactForm = () => {
         </div>
     );
 };
+
 
 export default ContactForm;
