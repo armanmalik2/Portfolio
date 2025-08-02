@@ -1,4 +1,4 @@
-import { users, addUser } from "@/lib/db";
+import { users, addUser } from "../../../lib/db";
 import { NextRequest } from "next/server";
 
 export async function GET() {
@@ -13,6 +13,7 @@ export async function POST(req:NextRequest) {
     }
     const newUser = addUser(body.name);
     return Response.json(newUser, {status:201});
+
 
 
 }
