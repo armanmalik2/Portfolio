@@ -1,6 +1,6 @@
 import Header from "../Header/page";
 
-type SkillsDataProps = {
+export type SkillsDataProps = {
     imgLink : string;
     imgData : string
 }
@@ -17,5 +17,6 @@ const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
         </div>
     );
 };
+
 
 export default SkillsData;
