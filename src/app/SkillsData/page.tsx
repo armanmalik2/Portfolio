@@ -21,9 +21,10 @@ export const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
 const SkillsDataReturn = () => {
     return(
         <div>
-            <SkillsData imgLink="hd" imgData="d" />
+            <h1>Hii</h1>
         </div>
     )
 }
 
 export default SkillsDataReturn;
+
