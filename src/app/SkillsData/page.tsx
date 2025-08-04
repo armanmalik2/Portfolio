@@ -16,3 +16,14 @@ export const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
     );
 };
 
+
+
+const SkillsDataReturn = () => {
+    return(
+        <div>
+            <SkillsData imgLink="hd" imgData="d" />
+        </div>
+    )
+}
+
+export default SkillsDataReturn;
