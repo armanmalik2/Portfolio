@@ -1,4 +1,4 @@
-export type SkillsDataProps = {
+type SkillsDataProps = {
     imgLink : string;
     imgData : string
 }
@@ -15,3 +15,4 @@ export const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
         </div>
     );
 };
+
