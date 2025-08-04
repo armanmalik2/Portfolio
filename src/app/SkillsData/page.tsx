@@ -1,11 +1,9 @@
-import Header from "../Header/page";
-
 export type SkillsDataProps = {
     imgLink : string;
     imgData : string
 }
 
-const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
+export const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
     return(
         <div>
             
@@ -17,6 +15,3 @@ const SkillsData = ({imgLink , imgData}:SkillsDataProps) => {
         </div>
     );
 };
-
-
-export default SkillsData;
