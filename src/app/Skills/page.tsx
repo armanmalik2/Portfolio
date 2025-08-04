@@ -1,5 +1,5 @@
 import Header from "../Header/page";
-import SkillsData from "../SkillsData/page";
+import { SkillsData } from "../SkillsData/page";
 
 const Skills = () => {
     return(
@@ -41,5 +41,6 @@ const Skills = () => {
         </>
     );
 };
+
 
 export default Skills;
